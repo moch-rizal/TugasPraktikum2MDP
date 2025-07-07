@@ -80,7 +80,7 @@ fun NoteCard(
                                 fontSize = 22.sp,
                                 fontWeight = FontWeight.Bold
                             ),
-                            color = Color(0xFF4A4A4A), // Dark gray untuk kontras yang baik
+                            color = Color(0xFF4A4A4A),
                             maxLines = 2,
                             overflow = TextOverflow.Ellipsis
                         )
