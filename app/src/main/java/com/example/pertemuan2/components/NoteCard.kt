@@ -46,7 +46,6 @@ fun NoteCard(
         )
     ) {
         Box {
-            // Gradient background accent
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -124,12 +123,12 @@ fun NoteCard(
                         fontSize = 15.sp,
                         lineHeight = 22.sp
                     ),
-                    color = Color(0xFF5D4037).copy(alpha = 0.8f), // Brown untuk content text
+                    color = Color(0xFF5D4037).copy(alpha = 0.8f),
                     maxLines = 4,
                     overflow = TextOverflow.Ellipsis
                 )
 
-                // Subtle bottom accent
+                // bottom accent
                 Spacer(modifier = Modifier.height(12.dp))
                 Box(
                     modifier = Modifier
@@ -139,7 +138,7 @@ fun NoteCard(
                             brush = Brush.horizontalGradient(
                                 colors = listOf(
                                     Color.Transparent,
-                                    Color(0xFFE1BEE7).copy(alpha = 0.6f), // Pastel purple untuk accent line
+                                    Color(0xFFE1BEE7).copy(alpha = 0.6f),
                                     Color.Transparent
                                 )
                             )
