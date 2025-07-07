@@ -22,10 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pertemuan2.model.response.NoteItem
 
-/**
- * @param note Objek NoteItem yang akan ditampilkan.
- * @param onClick Callback ketika card diklik (opsional).
- */
+
 @Composable
 fun NoteCard(
     note: NoteItem
